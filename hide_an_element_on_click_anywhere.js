@@ -3,11 +3,11 @@ $('.app_comment_setting_icon').click(function (event) {
         $('.app_setting_drop').toggle();
     });
 	
-//START: HIDE ALL TOGGLE DIV
+    //START: HIDE ALL TOGGLE DIV ON .MOUSEUP/.CLICK 
     $(document).mouseup(function () {            
         $('.app_setting_drop:visible').hide();
     });
-    //END: HIDE ALL TOGGLE DIV	
+    //END: HIDE ALL TOGGLE DIV ON .MOUSEUP/.CLICK 	
 	
 	
 	
